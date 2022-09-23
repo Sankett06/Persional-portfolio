@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanket-Bandodkar-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8df6862283.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Disgner, Developer</p>
+                <h1>Hi, I'm <span>Sanket Bandodkar</span> <br>From Goa, India</h1>
+            </div>
+        </div>
+    </div>
+    <!------about----->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a qualified and professional Software developer with experience in Software and website design. Strong creative and analytical skills. Ready to learn new things and skills and take new challenges</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">skills</p>
+                        <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App development</span><br>android App development</li><br>
+                        </ul>
+                    </div>
+                        <p class="tab-links active-link" onclick="openTab('experience')">experience</p>
+                        <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-2021</span><br>Internship at persistent systems.</li><br>
+                        </ul>
+                    </div>
+                        <p class="tab-links active-link" onclick="openTab('education')">education</p>
+                        <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Computer Engineering from Goa college of engineering</li>
+                            <li><span>2018</span><br>HSS Science from V.S.Dempo HSS</li>
+                            <li><span>2016</span><br>SSC from Santa cruz high school</li>
+                        </ul>
+                    </div>
+                    </div>
+                
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--services--->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the creation of websites and pages to reflect a company’s brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you’re designing a website, mobile app or maintaining content on a web page.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing, interactive interfaces. UX design usually comes first in the product development process</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-5.png" alt="">
+                    <div class="layer">
+                        <h3>BookShare App</h3>
+                        <p>The app helps to share, buy, sell & rent the books across goa</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png" alt="">
+                    <div class="layer">
+                        <h3>Covid App</h3>
+                        <p>The web app that shows the covid report of the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>One stop Solution</h3>
+                        <p>The website that helps the customer to manage the cars for various services</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+     <!------contact------>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sanketbandodkar455@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7262015693</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sanket-bandodkar-12b749195/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/sanket.bandodkar.12" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/SanketBandodkar" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/sankett06/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                    <a href="images/SANKET_BANDODKAR-RESUME.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> 2022 - Sanket Bandodkar - All Rights Reserved</i></p>
+        </div>
+     </div>
+
+     <!--javascript-->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(skil){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementsByClassName("skil").classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbweCqsOvpBFvFWpfXBDQHm3kkOoNqFqOJZ-TAPsZYG1RiDbk50ChrBJabIDdbkHFZK9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succussfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
